@@ -80,7 +80,7 @@ const Team = () => {
         >
           <div className="img">
             <img
-              src="https://i.pinimg.com/originals/95/4a/a1/954aa1be9d93daf6d3a92b3da8c41f2f.jpg"
+              src="https://static.vecteezy.com/system/resources/thumbnails/023/641/623/small_2x/avatar-of-a-cute-little-boy-isolated-illustration-in-cartoon-style-vector.jpg"
               alt="member2"
             />
           </div>
