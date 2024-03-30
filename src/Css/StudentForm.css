@@ -1,0 +1,82 @@
+.form-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center; 
+    justify-self: center;
+    height: max-content;
+    width: 340px;
+    /* border: 0.1rem black solid; */
+    border-radius: 0.5rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: fixed;
+    top: 10%;
+    padding: 1rem 1rem 2rem 1rem;
+}
+
+.close{
+    height: 1.5rem;
+    width: 1.5rem;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.logo{
+    align-self: center;
+}
+
+#input{
+    border-radius:0.5rem;
+    border: 0.02rem black solid;
+    height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#input-img{
+    padding: 0.4rem 0rem;
+}
+
+.submit-btn{
+    width: 18rem;
+    height: 2.6rem;
+    font-size: 1.2rem;
+    border-radius: 1.2rem;
+    color: white;
+    background-color: black;
+    outline: none;
+    border: none;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.submit-btn:hover{
+    background-color: #c0c0c0;
+    border: none;
+    color: black;
+}
+
+/* .hello{
+    position: relative;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    height: 8rem;
+    overflow-y:auto;
+    scroll-behavior:smooth; 
+}
+
+.hello::-webkit-scrollbar{
+     background-color:grey;
+     width: 0.2rem;
+     display: none;
+}
+
+.hello::-webkit-scrollbar-thumb{
+    background-color: red;
+    border-radius: 5rem;
+    width: 0.2rem;
+    height: 0.3rem;
+} */
+
+
+

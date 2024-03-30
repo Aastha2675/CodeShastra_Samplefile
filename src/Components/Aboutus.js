@@ -128,7 +128,7 @@ const Team = () => {
             <img
               src="https://res.cloudinary.com/dm9axcf83/image/upload/v1711618939/aastha-profile-img_m2csce.jpg"
               alt="member3"
-            />{" "}
+            />
           </div>
 
           <h2 className="member-name">Aastha Mhatre</h2>

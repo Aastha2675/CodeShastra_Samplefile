@@ -62,7 +62,7 @@ img{
     height: 12rem;
     width: 12rem;
     border-radius: 50%;
-    border: 0.2rem #bdcdf1 solid;
+    border: 0.2rem #7389f4 solid;
 }
 
 
@@ -81,14 +81,14 @@ img{
 .hr{
     width: 12.5rem;
     height: 0.15rem;
-    background-color: #829ede;
+    background-color: #7389f4;
     border-radius: 5rem;
     border: none;
 }
 
 .contribution {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
     flex-direction: column;
     align-content: center;
