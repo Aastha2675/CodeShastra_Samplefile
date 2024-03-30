@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+
 const videos = [
   {
     id: 1,
@@ -57,3 +58,13 @@ const VideoList = ({ videos }) => {
     </div>
   );
 };
+
+function Site() {
+  return (
+    <div>
+      <VideoList videos={videos} />
+    </div>
+  );
+};
+
+ReactDOM.render(<Site />, document.getElementById('root'));
